@@ -1,0 +1,903 @@
+/*============= MuseoSans Font Starts ============*/
+@font-face {
+   font-family: museosans;
+   font-weight: 500;
+   src: url("../fonts/museosans-500.otf") format("opentype");
+}
+@font-face {
+   font-family: museosansCyrl;
+   font-weight: 100;
+   src: url("../fonts/MuseoSansCyrl.otf") format("opentype");
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("../fonts/Lato-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/Lato-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Tangerine-Bold;
+  src: url("../fonts/Tangerine-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Tangerine-Regular;
+  src: url("../fonts/Tangerine-Regular.ttf") format("truetype");
+}
+/*============= MuseoSans Font End ============*/
+
+/*============= Common Css Start ============*/
+.textsize10{
+   font-size:10px;
+}
+.textsize12{
+   font-size:12px;
+}
+.textsize14{
+   font-size:14px;
+}
+.textsize16{
+   font-size:16px;
+}
+.textsize17{
+   font-size: 17px;
+}
+.textsize18{
+   font-size:18px;
+}
+.textsize20{
+   font-size:20px;
+}
+.textsize22{
+   font-size:22px;
+}
+.textsize24{
+   font-size:24px;
+}
+.textsize26{
+   font-size:26px;
+}
+.textsize28{
+   font-size:28px;
+}
+.textsize30{
+   font-size:30px;
+}
+.textsize32{
+   font-size:32px;
+}
+.textsize34{
+   font-size:34px;
+}
+.textsize36{
+   font-size:36px;
+}
+.textsize38{
+   font-size:38px;
+}
+.textsize40{
+   font-size:40px;
+}
+.textsize40{
+   font-size:40px;
+}
+.textsize42{
+   font-size:42px;
+}
+.textsize44{
+   font-size:44px;
+}
+.textsize45{
+   font-size:45px;
+}
+.textsize46{
+   font-size:46px;
+}
+.text-green{
+   color:#81ee8e;
+}
+.text-black{
+   color:#000;
+}
+.text-voilet{
+   color:#8943ef;
+}
+.text-white{
+   color:#fff;
+}
+.common-maincontent-margin{
+   margin-bottom: 10px;
+}
+.common-content-margin{
+   margin-bottom: 20px;
+}
+.common-content-margintop{
+   margin-top: 20px;
+}
+.common-background-voilet-skyblue{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #8943ef 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #8943ef 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #8943ef 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #8943ef 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #8943ef 0%, #00c9fd 100%) repeat scroll 0 0;
+}
+.common-background-skyblue-voilet{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+}
+.common-background-green-skyblue{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+}
+.common-background-skyblue-green{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+}
+.nopadding{
+   padding:0;
+}
+/*============= Common Css End ============*/
+
+/*============= Navbar Css Starts ============*/
+.navbar-custom {
+   background-color: #222222;
+   border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+   color: #fff;
+   font-family: Tangerine-Bold, sans-serif;
+   font-weight: 600;
+}
+.navbar-custom .navbar-brand:hover, 
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active{
+   color: #ffff00 !important;
+}
+.navbar-custom .navbar-collapse {
+   border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+   background-color: #fed136;
+   border-color: #fed136;
+   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   text-transform: uppercase;
+   color: white;
+   font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+   background-color: #fed136;
+}
+.navbar-custom .nav li a {
+   font-family: Lato-Regular, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-stretch: normal;
+   letter-spacing: 0.8px;
+   text-align: center;
+   color:#ffffff;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+   color: #ffff00;
+   outline: none;
+   -webkit-transition:all 0.3s ease-in;
+   -moz-transition:all 0.3s ease-in;
+   -o-transition:all 0.3s ease-in;
+   -ms-transition:all 0.3s ease-in;
+   transition:all 0.5s ease-in;
+}
+.navbar-custom .navbar-nav > .active > a {
+   border-radius: 0;
+   color: #ffff00;
+   background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+   color: #ffff00;
+   background-color: transparent;
+}
+/*============= Navbar Css End ============*/
+
+/*============= Slider and Overlay Css Start ===========*/
+.container-header{
+   position: relative;
+}
+.overlay-banner{
+   position:absolute;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, rgba(51, 51, 51, 0.5) 0%, rgba(51, 51, 51, 0.9) 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, rgba(51, 51, 51, 0.5) 0%, rgba(51, 51, 51, 0.9) 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right,rgba(51, 51, 51, 0.5) 0%, rgba(51, 51, 51, 0.9) 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, rgba(51, 51, 51, 0.5) 0%, rgba(51, 51, 51, 0.9) 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(51, 51, 51, 0.5) 0%, rgba(51, 51, 51, 0.9) 100%) repeat scroll 0 0;
+}
+#owl-demo .item img{
+   display: block;
+   width: 100%;
+   height: calc(100vh - 0px);
+}
+.owl-controls{
+   position: absolute;
+   bottom:2%;
+   right:1%;
+   z-index:2;
+}
+/*============= Slider and Overlay Css End ===========*/
+
+/*============= About us Css Start ===========*/
+.about-container{
+   padding:20px 15px 20px; 
+}
+.about-main-contents h2{
+   margin: 0 0 10px;
+   padding: 10px 0 20px;
+   font-family: Tangerine-Bold, sans-serif;
+}
+.about-main-contents h2 > span{
+   border-bottom:4px double #81ee8e;
+}
+.about-contents{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   padding:35px;
+   border-radius: 5px;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.about-contents:hover {
+   box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.4);
+}
+.about-contents p{
+   font-family: Lato-Regular, sans-serif;
+   letter-spacing: 1px;
+}
+.about-contents p > span{
+   font-style: italic;
+}
+.about-contents p > span > i{
+   color:#000;
+   vertical-align: super;
+   font-size: 10px;
+}
+.about-contents p:first-child{
+   line-height: 40px;
+   margin-bottom:5px;
+   color: #fff;
+}
+.about-contents p:nth-child(2){
+   line-height: 30px;
+   color:#000;
+}
+.about-active-label{
+   border:1px solid #81ee8e;
+   border-radius:5px;
+   padding:15px;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+}
+.about-active-label span{
+   display: inline-block;
+   letter-spacing: 1px;
+}
+.about-active-label span > img{
+   vertical-align: middle;
+}
+.about-active-label:hover{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.8);
+   color:#fff;
+   border:1px solid #81ee8e;
+}
+.btn-read-more{
+   padding: 15px 20px;
+   border-radius: 30px;
+   border: none;
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+   font-family: Lato-Regular, sans-serif;
+   color:#000;
+   font-size: 16px;
+}
+.btn-read-more:hover{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+   box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.8);
+   border: none;
+   color:#fff;
+}
+/*============= About us Css End ===========*/
+
+/*============= Services Css Start ===========*/
+.service-container{
+   padding:20px 15px;
+}
+.service-main-contents h2{
+   margin: 0 0 10px;
+   padding: 10px 0 20px;
+   font-family: Tangerine-Bold, sans-serif;
+}
+.service-main-contents h2 > span{
+   border-bottom:4px double #fff;
+   color:#fff;
+}
+.service-label{
+   border-radius:5px;
+   padding:15px;
+   border-top:6px solid transparent;
+   -webkit-transition: all 0.7s ease-in-out;
+   -moz-transition: all 0.7s ease-in-out;
+   -o-transition: all 0.7s ease-in-out;
+   -ms-transition: all 0.7s ease-in-out;
+   transition: all 0.7s ease-in-out;
+   color:#fff;
+}
+.service-label:hover{
+   background-color:#fff;
+   color:#000;
+   box-shadow: 0 6px 20px -7px rgba(0, 0, 0, 0.8);
+   border-top:6px solid #8943ef;
+}
+.service-label h3{
+   line-height: 25px;
+   margin:10px 0;
+   font-family: Lato-Regular, sans-serif; 
+   letter-spacing: 1px
+}
+.service-label p{
+   line-height: 25px;
+   font-family: Lato-Regular, sans-serif; 
+   text-align:justify;
+   color:transparent;
+   -webkit-transition: all 0.7s ease-in-out;
+   -moz-transition: all 0.7s ease-in-out;
+   -o-transition: all 0.7s ease-in-out;
+   -ms-transition: all 0.7s ease-in-out;
+   transition: all 0.7s ease-in-out;
+}
+.service-label:hover p{
+   color:#000;
+}
+.service-icons{
+   width:60px;
+   height:60px;
+   margin:0 auto;
+   box-shadow: 0 3px 15px -4px rgba(0, 0, 0, 0.8);
+   border-radius: 50%;
+}
+.service-icons img{
+   padding: 12px 0;
+   margin: 5px 0;
+}
+.banner-image-bg{
+   background-image: url('../img/slider.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height:500%;
+   background-position: center;
+   background-size: cover;
+}
+/*============= Services Css End ===========*/
+
+/*============= Gallery Css Start ===========*/
+.gallery-container{
+   padding:20px 15px 20px; 
+}
+.gallery-main-contents h2{
+   margin: 0 0 10px;
+   padding: 10px 0 20px;
+   font-family: Tangerine-Bold, sans-serif;
+}
+.gallery-main-contents h2 > span{
+   border-bottom:4px double #81ee8e;
+}
+.gallery-nopadding{
+   padding:0;
+}
+.gallery-contents{
+   padding:35px;
+   border-radius: 5px;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.gallery-contents:hover{
+   box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.4);
+}
+.gallery-contents p{
+   font-family: Lato-Regular, sans-serif;
+   letter-spacing: 1px;
+}
+.gallery-contents p{
+   line-height: 30px;
+   color:#fff;
+}
+.gallery-contents p > span > i{
+   color:#000;
+   vertical-align: super;
+   font-size: 10px;
+}
+.wild-gallery img{
+   width:100%; 
+}
+.wild-gallery-overlay{
+   position: relative;
+   overflow:hidden;
+}
+.caption-overlay{
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   text-align: center; 
+   color: #fff;
+   font-size: 30px;
+   background: #000;
+   opacity: 0.9;
+   -webkit-transform: scaleY(0);
+   transform: scaleY(0);
+   -webkit-transition: transform 0.4s ease-out;
+   transition: transform 0.4s ease-out;
+}
+.caption-overlay h3{
+   line-height: 3.1;
+   padding: 50px 0 30px;
+   font-family: Lato-Regular, sans-serif;
+}
+.wild-gallery-overlay:hover .caption-overlay{
+   transform: scaleY(1);
+}
+.places-contents{
+   padding:15px 0;
+}
+.places-contents p{
+   line-height: 30px;
+   font-family: Lato-Regular, sans-serif;
+   letter-spacing: 1px;
+}
+.view-more-btn{
+   width:50px;
+   height:50px;
+   border-radius: 50%;
+   margin:0 auto;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   border:1px solid #8943ef;
+}
+.view-more-btn:hover{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   box-shadow: 0 0 25px -4px rgba(255, 255, 255, 0.9);
+   border:1px solid #8943ef;
+}
+.view-more-btn img{
+   width: 35px;
+   height: 35px;
+   margin: 7px 0;
+}
+.view-more-btn a:focus{
+   outline:none;
+}
+.modal-body-content img{
+   width:100%;
+}
+.close-icon{
+   opacity: 1;
+}
+.close-icon:hover{
+   opacity: 0.8;
+}
+.modal-border-radius{
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.btn-ok{
+   border-radius: 5px;
+   font-family: Lato-Regular, sans-serif;
+   border:1px solid #8943ef;
+   color:#000;
+   padding:8px 20px;
+}
+.btn-ok:hover, .btn-ok:focus, .btn-ok:active:focus{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   border:1px solid #8943ef;
+   outline: none;
+   color:#fff;
+}
+/*============= Gallery Css End ===========*/
+
+/*============= Activities Css Start ===========*/
+.activities-container{
+   padding:30px 15px; 
+}
+.activities-main-contents h2{
+   margin: 0 0 10px;
+   padding: 10px 0 20px;
+   font-family: Tangerine-Bold, sans-serif;
+}
+.activities-main-contents h2 > span{
+   border-bottom:4px double #8943ef;
+}
+.btn-activities{
+   border-radius: 20px;
+   font-family: Lato-Regular, sans-serif;
+   border:1px solid #8943ef;
+   color:#000;
+   padding:8px 20px;
+}
+.btn-activities:hover, .btn-activities:focus, .btn-activities:active:focus{
+   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #8943ef 100%) repeat scroll 0 0;
+   border:1px solid #8943ef;
+   outline: none;
+   color:#fff;
+}
+.btn-activities-margin button{
+   margin-right:15px;
+}
+.btn-activities-margin button:last-child{
+   margin-right:0;
+}
+.activities-gallery img{
+   width:100%;
+}
+.animation-none{
+   display: none;
+   opacity: 0;
+   transition: all .3s linear;
+}
+.animation-block{
+   display: block;
+   opacity: 1;
+}
+/*============= Activities Css End ===========*/
+
+/*============= Plan Css Start ===========*/
+.plan-container{
+   padding:20px 15px 50px;
+}
+.plan-main-contents h2{
+   margin: 0 0 10px;
+   padding: 10px 0 20px;
+   font-family: Tangerine-Bold, sans-serif;
+}
+.plan-main-contents h2 > span{
+   border-bottom:4px double #81ee8e;
+}
+.plan-box-shadow{
+   box-shadow: 0 0 30px -4px rgba(0, 0, 0, 0.4);
+   border-radius:5px;
+}
+.two-plan-box-shadow{
+   box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.2);
+   border-radius:5px;
+}
+.plan-heading{
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   padding: 30px 20px;
+}
+.top-plan-border{
+   border-bottom:1px solid #d6d7d5;
+}
+.paln-list ul > li{
+   padding:0 15px;
+   line-height: 50px;
+   font-size:15px;
+   border-bottom:1px solid #d6d7d5;
+}
+.paln-list ul > li > img{
+   float: right;
+   margin:13px 0;
+}
+.plan-list-text-black ul > li{
+   color:#000;
+}
+.plan-list-text-white ul > li{
+   color:#fff;
+}
+.paln-list ul > li:last-child{
+   border-bottom:none;
+}
+.border-radius{
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+.plans-box h3{
+   font-family: Lato-Regular, sans-serif;
+   margin-bottom:15px;
+}
+.plans-box p{
+   font-family: Lato-Regular, sans-serif;
+}
+/*============= Plan Css End ===========*/
+
+.testimonials-container{
+   padding:20px 15px 50px;
+}
+.testimonials-main-contents h2{
+   margin: 0 0 10px;
+   padding: 10px 0 20px;
+   font-family: Tangerine-Bold, sans-serif;
+}
+.testimonials-main-contents h2 > span{
+   border-bottom:4px double #81ee8e;
+}
+.testanomials-slider{
+   background-color: #fff;
+  box-shadow: 0 0 12px 0px #ddd;
+  border:1px solid #ddd;
+  border-radius:20px;
+  -webkit-transition-duration: 0.5s;
+   transition-duration: 0.5s;
+}
+.testanomials-slider:hover{
+   border-color:#5510bc;
+}
+#quote-carousel {
+   padding: 46px 24px 33px 20px;
+  text-align:center;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+   right: 50%;
+   top: auto;
+   bottom: -10px;
+   margin-right: -19px;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  background: #4a0ea4;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+   background: #fff;
+   height:13px;
+   width:13px;
+   margin-bottom:1px;
+   border:2px solid #4a0ea4;
+}
+.item p{
+   font-family: MuseoSans;
+   font-size: 18px;
+   font-weight: 300;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.6;
+   letter-spacing: 0.4px;
+   color: #111111;
+   text-align:justify;
+}
+.item cite{
+   font-family: MuseoSans;
+   font-size: 20px;
+   font-weight: 400;
+   font-style: italic;
+   font-stretch: normal;
+   line-height: 1.6;
+   letter-spacing: 0.4px;
+   color: #792ced;
+   float: right;
+  margin-top: 15px;
+}
+/*============= GetInTouch Css Start ===========*/
+.m-t-10{
+   margin-top:10px;
+}
+.getintouch-child-border{
+   border: 1px solid #ddd;
+   padding:15px;
+}
+.getintouch-container{
+   padding:20px 15px 50px;
+}
+.getintouch-main-contents h2{
+   margin: 0 0 10px;
+   padding: 10px 0 20px;
+   font-family: Tangerine-Bold, sans-serif;
+}
+.getintouch-main-contents h2 > span{
+   border-bottom:4px double #81ee8e;
+}
+.getintouch-context img{
+   width:100%;
+}
+.form-container input[type="text"], .form-container input[type="email"]{
+   height:50px;
+   padding:20px;
+   border-radius:0;
+   font-family: Lato-Regular, sans-serif;
+   font-size: 16px;
+   border: 1px solid #676a6c;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.form-container input[type="text"]:hover, .form-container input[type="text"]:focus, .form-container input[type="email"]:hover, .form-container input[type="email"]:focus{
+   border:1px solid #8943ef;
+   border-radius: 10px;
+}
+.form-container textarea{
+   padding:20px;
+   border-radius:0;
+   font-family: Lato-Regular, sans-serif;
+   resize: none;
+   font-size: 16px;
+   border: 1px solid #676a6c;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.3s ease-in-out
+}
+.form-container textarea:hover, .form-container textarea:focus{
+   border:1px solid #8943ef;
+   border-radius: 10px;
+}
+.form-box-shadow{
+   box-shadow: 0 0 30px -4px rgba(0, 0, 0, 0.4);
+}
+.form-padding{
+   padding:20px;
+}
+.contact-icons {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    box-shadow: 0 3px 15px -4px rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+}
+.contact-icons img{
+   padding: 12px 0;
+   margin: 5px 0;
+}
+.contact-content p{
+   font-family: Lato-Regular, sans-serif;
+   line-height: 25px;
+}
+/*============= GetInTouch Css End ===========*/
+
+.footer-padding{
+   padding:30px 15px;
+}
+.footer-content p{
+   font-family: Lato-Regular, sans-serif;
+}
+#scroll-top {
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  cursor:pointer;
+  width:50px;
+  height:50px;
+  background-color:#179b99;
+  text-indent:-9999px;
+  display:none;
+  -webkit-border-radius:60px;
+  -moz-border-radius:60px;
+  border-radius:60px;
+}
+#scroll-top span {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-8px;
+  margin-top:-12px;
+  height:0;
+  width:0;
+  border:8px solid transparent;
+  border-bottom-color:#ffffff;
+}
+#scroll-top:hover {
+  background-color:#116f6d;
+  opacity:1;filter:"alpha(opacity=100)";
+  -ms-filter:"alpha(opacity=100)";
+}
+@media (min-width: 1200px) {
+   .navbar-custom {
+      background-color: transparent;
+      padding: 39px 0;
+      -webkit-transition: padding 0.5s;
+      -moz-transition: padding 0.5s;
+      transition: padding 0.5s;
+      border: none;
+   }
+   .navbar-custom .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
+   }
+   .navbar-custom .navbar-nav > .active > a {
+      border-radius: 0;
+   }
+}
+@media (min-width: 1200px) {
+   .navbar-custom.affix {
+      padding: 12px 0;
+      background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+      background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+      background: rgba(0, 0, 0, 0) -o-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+      background: rgba(0, 0, 0, 0) -ms-linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+      background: rgba(0, 0, 0, 0) linear-gradient(to right, #81ee8e 0%, #00c9fd 100%) repeat scroll 0 0;
+      box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.8);
+   }
+   .navbar-brand>img{
+      width: 35px;
+      margin-top: 2px;
+      height: auto;
+   }
+   .sm-m-t-10{
+      margin-top: 0 !important;
+   }
+}
+@media (min-width: 768px){
+   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+      margin-left: -100px;
+   }
+}
+
+@media (min-width:320px){
+   .sm-m-t-10{
+      margin-top: 20px;
+   }
+}

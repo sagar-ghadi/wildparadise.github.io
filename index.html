@@ -709,7 +709,7 @@
 									<div class="map-content no-padding">
 										<div class="mapouter">
 											<div class="gmap_canvas">
-												<iframe width="525" height="370" id="gmap_canvas" src="https://maps.google.com/maps?q=Euphoria%20Apartments&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+												<iframe width="525" height="368" id="gmap_canvas" src="https://maps.google.com/maps?q=Euphoria%20Apartments&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 											</div>
 										</div>
 									</div>
@@ -808,7 +808,7 @@
 		</div> -->
 
 		<!-- Arrow Section Top Start -->
-			<div id="scroll-top" title="Scroll to Top" style="display: none;">Top<span></span></div>
+			<div id="scroll-top" title="Scroll to Top" style="display:none;">Top<span></span></div>
 		<!-- Arrow Section Top End -->
 
 		<div class="container-fluid m-t-10">
@@ -841,6 +841,8 @@
 
 			  	});
 			});
+			
+			
 			function myMap() {
 			    var mapOptions = {
 			        center: new google.maps.LatLng(51.5, -0.12),
@@ -849,11 +851,21 @@
 			    }
 			var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 			}
-
 			$('#scroll-top').click(function(){ 
 			    $("html, body").animate({ scrollTop: 0 }, 600); 
 			    return false; 
 			}); 
+
+			$(window).scroll(function(){
+				if($(this).scrollTop() > 850){
+					$('#scroll-top').fadeIn();
+				}else{
+					$('#scroll-top').fadeOut();
+				}
+			})
+
+			
+
 			
 		</script>
 	</body>
